@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="14349" started-at="2020-12-20T19:11:46 EST" finished-at="2020-12-20T19:12:00 EST">
+    <groups>
+    </groups>
+    <test name="lifeline Test" duration-ms="14349" started-at="2020-12-20T19:11:46 EST" finished-at="2020-12-20T19:12:00 EST">
+      <class name="com.assurancewireless.coverageMap.LifeLineserviceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.assurancewireless.coverageMap.LifeLineserviceTest@f8c1ddd]" name="setup" is-config="true" duration-ms="12853" started-at="2020-12-20T19:11:46 EST" finished-at="2020-12-20T19:11:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="lifLineService_WhatIsLifeLine()[pri:0, instance:com.assurancewireless.coverageMap.LifeLineserviceTest@f8c1ddd]" name="lifLineService_WhatIsLifeLine" duration-ms="256" started-at="2020-12-20T19:11:59 EST" finished-at="2020-12-20T19:11:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lifLineService_WhatIsLifeLine -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.assurancewireless.coverageMap.LifeLineserviceTest@f8c1ddd]" name="teardown" is-config="true" duration-ms="1125" started-at="2020-12-20T19:11:59 EST" finished-at="2020-12-20T19:12:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.assurancewireless.coverageMap.LifeLineserviceTest -->
+    </test> <!-- lifeline Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
