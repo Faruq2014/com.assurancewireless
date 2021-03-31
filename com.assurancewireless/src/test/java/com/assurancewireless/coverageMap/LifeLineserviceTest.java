@@ -1,5 +1,6 @@
 package com.assurancewireless.coverageMap;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -17,17 +18,19 @@ public class LifeLineserviceTest {
 		WebDriverManager.chromedriver().setup();// 87.0.4280.20
 		driver = new ChromeDriver();
 		driver.get("https://www.assurancewireless.com/");
+		
 	} 
 	
 	@Test
 	public void lifLineService_WhatIsLifeLine() {
 		String title=driver.getTitle();
 		System.out.println("the title is "+ title);
+		driver.findElement(By.linkText("Coverage Map")).click();
 	}
 	
-	@AfterTest
+	//@AfterTest
 	public void teardown() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }
